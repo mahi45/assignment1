@@ -91,3 +91,130 @@
     width: 45px;
 }
 /* Plan style end */
+/* Footer top banner style start */
+.footer-top-banner{
+    margin: 130px 230px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+}
+.footer-top .content{
+    width: 460px;
+    padding: 60px;
+    color: #ffffff;
+}
+.footer-top .content .btn-secondary{
+    background-color: #ffffff;
+    color: #F15B22;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+.footer-top .content h3{
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+/* Footer top banner style end */
+/* Skill plan style start */
+.section-title, .section-description{
+    text-align: center;
+}
+.donate-plan-box-container{
+    display: flex;
+    text-align: left;
+    gap: 15px;
+    max-width: 1140px;
+    margin: 0px auto 130px;
+}
+.donate-plan-box1{
+    background: rgba(79, 157, 166, 0.1);
+    padding: 30px 12px;
+}
+.donate-plan-box1 img{
+    width: 40px;
+    margin-bottom: 15px;
+}
+.donate-plan-box1 .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.donate-plan-box1 .description{
+    font-size: 14px;
+}
+.donate-plan-box2{
+    background: rgba(255, 89, 89, 0.1);
+    padding: 30px 10px;
+}
+.donate-plan-box2 img{
+    width: 40px;
+    margin-bottom: 15px;
+}
+.donate-plan-box2 .description{
+    font-size: 14px;
+}
+.donate-plan-box2 .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.donate-plan-box3{
+    background: #FFF4D6;
+    padding: 30px 10px;
+}
+.donate-plan-box3 img{
+    width: 40px;
+    margin-bottom: 15px;
+}
+.donate-plan-box3 .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.donate-plan-box3 .description{
+    font-size: 14px;
+}
+/* Skill plan style end */
+/* Footer style start */
+footer{
+    padding: 130px 230px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.footer-container{
+    display: flex;
+}
+.footer-left{
+    width: 70%;
+}
+.footer-paragraph{
+    width: 65%;
+}
+.footer-left .icons{
+    margin-top: 32px;
+    display: flex;
+    gap: 18px;
+}
+.footer-left h2, p{
+    margin-bottom: 16px;
+}
+.footer-left p.footer-paragraph{
+    margin-bottom: 24px;
+}
+.footer-right h4{
+    margin-bottom: 31px;
+}
+.footer-right input[type="email"]{
+    padding: 10px 140px 10px 10px;
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.footer-right input[type="submit"]{
+    margin-top: 16px;
+    padding: 10px 18px;
+    color: #F15B22;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* Footer style end */
