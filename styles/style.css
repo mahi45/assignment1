@@ -43,8 +43,11 @@
     max-width: 1072px;
     margin: 0 auto;
     gap: 87px;
+    vertical-align: middle;
 }
-
+.stat-container .content{
+    margin-top: 135px;
+}
 .circle {
     width: 524px;
     height: 524px;
