@@ -44,7 +44,20 @@
     margin: 0 auto;
     gap: 87px;
 }
-.stat-container .image img{
+
+.circle {
+    width: 524px;
+    height: 524px;
+    background-color: #F15B22;
+    border: 1px solid #F15B22;
+    border-radius: 50%;
+}
+.stat-container .image .circle {
+    position: absolute;
+    top: 1108px;
+    left: 247px;
+    z-index: -1;
+    opacity: 0.2;
 }
 .stat-container .content h3{
     font-size: 40px;
