@@ -63,7 +63,7 @@
 }
 /* Stat style end */
 /* Plan style start */
-.plan-container h3{
+.plan-container h3, .skill-container h3{
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 50px!important;
@@ -74,7 +74,7 @@
 .plans{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 120px;
 }
 .plan-details{
     text-align: center;
@@ -116,62 +116,74 @@
 }
 /* Footer top banner style end */
 /* Skill plan style start */
-.section-title, .section-description{
+.skill-description{
     text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: -25px;
 }
-.donate-plan-box-container{
+.skill-box-container i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.skill-box-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.skill-box-container{
     display: flex;
     text-align: left;
     gap: 15px;
     max-width: 1140px;
     margin: 0px auto 130px;
 }
-.donate-plan-box1{
+.skill-box1{
     background: rgba(79, 157, 166, 0.1);
     padding: 30px 12px;
 }
-.donate-plan-box1 img{
-    width: 40px;
-    margin-bottom: 15px;
+.skill-box1 i{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
-.donate-plan-box1 .title{
+.skill-box1 .title{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.donate-plan-box1 .description{
+.skill-box1 .description{
     font-size: 14px;
 }
-.donate-plan-box2{
+.skill-box2{
     background: rgba(255, 89, 89, 0.1);
-    padding: 30px 10px;
+    padding: 30px 12px;
 }
-.donate-plan-box2 img{
-    width: 40px;
+.skill-box2 i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.skill-box2 .title{
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 15px;
 }
-.donate-plan-box2 .description{
+.skill-box2 .description{
     font-size: 14px;
 }
-.donate-plan-box2 .title{
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-.donate-plan-box3{
+.skill-box3{
     background: #FFF4D6;
-    padding: 30px 10px;
+    padding: 30px 12px;
 }
-.donate-plan-box3 img{
-    width: 40px;
-    margin-bottom: 15px;
+.skill-box3 i{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
-.donate-plan-box3 .title{
+.skill-box3 .title{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.donate-plan-box3 .description{
+.skill-box3 .description{
     font-size: 14px;
 }
 /* Skill plan style end */
@@ -209,6 +221,9 @@ footer{
     background: #000000;
     border: 1px solid #ffffff;
     border-radius: 5px;
+}
+::placeholder{
+    color: #ffffff;
 }
 .footer-right input[type="submit"]{
     margin-top: 16px;
